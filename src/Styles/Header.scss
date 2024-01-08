@@ -1,0 +1,73 @@
+#header {
+  padding: 16px 0;
+  background: rgb(3, 22, 69);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  animation: head 3s alternate;
+  .header {
+    span{
+      a{
+        font-size: 25px;
+        color: white;
+      }
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .active {
+      color: rgb(127, 127, 127);
+      font-weight: 900;
+      border-bottom: 2px solid grey;
+    }
+    img {
+      width: 200px;
+    }
+    &--nav {
+      a {
+        color: white;
+        margin: 0px 30px;
+        font-weight: 800;
+        font-size: 18px;
+      }
+      a:hover {
+        border-bottom: 2px solid grey;
+      }
+      &__inputs {
+        input { 
+          color: white;
+          font-weight: 700;
+          font-size: 15px;
+          padding: 10px 30px;
+          outline: none;
+          background: none;
+          border: 2px solid white;
+          border-radius: 10px;
+        }
+        button {
+          padding: 10px 30px;
+          outline: none;
+          background: none;
+          border: 2px solid white;
+          border-radius: 10px;
+          font-weight: 800;
+          font-size: 15px;
+          color: white;
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes head {
+  0% {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  }

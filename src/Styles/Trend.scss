@@ -1,0 +1,42 @@
+
+#trend {
+    margin: 30px;
+    margin-left: -80px;
+}
+
+.trend-txt {
+    display: flex;
+}
+.trend-txt h2 {
+margin-right: 30px;
+font-weight: 600;
+}
+.lef {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 2px solid black;
+    border-right: none;
+    background: none;
+    padding: 6px 20px;
+    font-weight: 800;
+}
+
+// .lef:focus {
+//     background: #170a4b;
+//     color: rgb(0, 255, 136);
+//     transition: .5s;
+// }
+// .right:focus {
+//     background: #170a4b;
+//     color: rgb(0, 255, 136);
+//     transition: .6s;
+// }
+.right {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border:2px solid black;
+    background: none;
+    border-left: none;
+    padding: 6px 20px;
+    font-weight: 800;
+}

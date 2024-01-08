@@ -1,0 +1,23 @@
+@import "../src/Styles/Header.scss";
+@import "../src/Styles/Home.scss" ;
+@import "../src/Styles/Popular.scss" ;
+@import "../src/Styles/TopRated.scss" ;
+@import "../src/Styles/Trend.scss" ;
+@import "../src/Styles/Scrol.scss" ;
+@import "../src/Styles/MovieDetail.scss" ;
+@import "../src/Styles/Person.scss" ;
+@import "../src/Styles/Video.scss" ;
+@import "../src/Styles/Actors.scss" ;
+@import "../src/Styles/Slick.scss" ;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
