@@ -3,6 +3,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import { lenguageContext } from '../context';
 import { MdDarkMode } from "react-icons/md";
 import { CiDark } from "react-icons/ci";
+import { FaSearch } from "react-icons/fa";
 
 const Header = () => {
 const [value , setValue] = useState("")
@@ -11,7 +12,7 @@ const {language} = useContext(lenguageContext)
 const {setLanguage} = useContext(lenguageContext)
 const {dark} = useContext(lenguageContext)
 const {setDark} = useContext(lenguageContext)
-
+const [block , setBlock] = useState(false)
     return (
         <div id='header'>
             <div className="container">
@@ -37,8 +38,12 @@ const {setDark} = useContext(lenguageContext)
                         <div className="header--nav__inputs">
                              <input type="text" onChange={(e) => setValue(e.target.value)} />
                              <button onClick={() => nav(`/movieSearch/${value}`)}>search</button>
-                      
                         </div>
+
+
+                                    {/* <a onClick={() => setBlock(true)} href="#"><FaSearch /></a>                       */}
+
+
                         <span style={{
                         }} onClick={() => setDark(!dark)}>
                    {

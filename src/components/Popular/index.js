@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
 import { API_KEY } from '../API';
 import { Link } from 'react-router-dom';
-import loading from "../../img/Spinner-1s-200px.svg"
+import loading from "../../img/LoadingImag.svg"
 import { lenguageContext } from '../context';
 const Popular = () => {
     const [popular , setPopular] = useState([])

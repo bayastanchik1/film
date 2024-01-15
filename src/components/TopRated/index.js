@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { API_KEY } from '../API';
 import { Link, NavLink } from 'react-router-dom';
-import leading from "../../img/Spinner-1s-200px.svg"
+import leading from "../../img/none.svg"
 const TopRated = () => {
     const [top , setTop] = useState([])
     function getTop(api) {
