@@ -8,7 +8,7 @@ import Person from '../components/Person'
 import Video from '../components/Video'
 import texr from '../img/ffff.svg'
 import zag from '../img/none.svg'
-
+//dddd
 const MovieDetails = () => {
 	const [blo, setBlo] = useState(false)
 	const [hover, setHover] = useState(false)
